@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Muli:wght@400;600&display=swap");
+body {
+  display: flex;
+  font-family: "Muli", sans-serif;
+  margin: 0;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  background-color: rgb(84, 182, 212);
+}
+.container {
+  border-radius: 10px;
+  width: 800px;
+  padding: 20px 30px;
+  color: grey;
+  max-width: 100%;
+  background-color: #fff;
+  box-shadow: 0px 10px 5px rgba(0, 0, 0, 0.1), 0px 10px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.joke {
+  font-size: 30px;
+  color: black;
+  margin: 40px 0;
+}
+
+.btn {
+  background-color: rgba(223, 100, 223, 0.781);
+  padding: 14px 40px;
+  font-size: 16px;
+  color: #fff;
+  outline: none;
+  border: 0;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.btn:active {
+  transform: scale(0.98);
+}
